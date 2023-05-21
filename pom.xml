@@ -1,0 +1,77 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.sesh</groupId>
+	<artifactId>APITesting_JAVA</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<restrest-assurersion>5.3.0</restrest-assurersion>
+		<jackson-databind.version>2.15.1</jackson-databind.version>
+		<guava.version>31.1-jre</guava.version>
+		<commons-io.version>2.12.0</commons-io.version>
+		<testng.version>7.8.0</testng.version>
+		<lombok.version>1.18.26</lombok.version>
+		<gson.version>2.10.1</gson.version>
+		<rest-assured-extent-testng.version>1.0.0</rest-assured-extent-testng.version>
+		<commons-lang3.version>3.12.0</commons-lang3.version>
+
+	</properties>
+
+
+	<dependencies>
+
+		<dependency>
+			<groupId>io.rest-assured</groupId>
+			<artifactId>rest-assured</artifactId>
+			<version>${restrest-assurersion}</version>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson-databind.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>${guava.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons-io.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>${testng.version}</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>${lombok.version}</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>${gson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>tech.grasshopper</groupId>
+			<artifactId>rest-assured-extent-testng</artifactId>
+			<version>${rest-assured-extent-testng.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${commons-lang3.version}</version>
+		</dependency>
+
+
+	</dependencies>
+
+
+</project>
