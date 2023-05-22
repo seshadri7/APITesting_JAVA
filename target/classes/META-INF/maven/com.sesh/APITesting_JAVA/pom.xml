@@ -14,6 +14,8 @@
 		<gson.version>2.10.1</gson.version>
 		<rest-assured-extent-testng.version>1.0.0</rest-assured-extent-testng.version>
 		<commons-lang3.version>3.12.0</commons-lang3.version>
+		<Apache-poi.version>5.2.3</Apache-poi.version>
+		<Apache-poi-ooxml.version>5.2.3</Apache-poi-ooxml.version>
 
 	</properties>
 
@@ -68,6 +70,16 @@
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 			<version>${commons-lang3.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${Apache-poi.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${Apache-poi-ooxml.version}</version>
 		</dependency>
 
 
